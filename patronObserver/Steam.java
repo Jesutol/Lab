@@ -21,7 +21,7 @@ public class Steam {
         }
     }
     public void notificarRebaja(String notificacionListaDeDeseos) {
-        System.out.println("Inicio la temporada de descuentos " + notificacionListaDeDeseos);
+        System.out.println("Inicio la temporada de descuentos: " + notificacionListaDeDeseos);
         setMessage("Un juego de tu lista de deseos está en descuento: " + notificacionListaDeDeseos);
     }
 

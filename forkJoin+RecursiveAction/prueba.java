@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.RecursiveTask;
 
-import prueba15.prueba;
+
 public class prueba extends RecursiveTask<int[]>{
 	int[] arreglo;
 	int n;
