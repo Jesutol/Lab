@@ -3,7 +3,7 @@ package patronObserver;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Canal {
+public class Steam {
     private List<Observer> observers = new ArrayList<>();
     private String message;
 
@@ -20,9 +20,9 @@ public class Canal {
             observer.update(message);
         }
     }
-    public void subirVideo(String video) {
-        System.out.println("Nuevo video subido: " + video);
-        setMessage("Nuevo video subido: " + video);
+    public void notificarRebaja(String notificacionListaDeDeseos) {
+        System.out.println("Inicio la temporada de descuentos " + notificacionListaDeDeseos);
+        setMessage("Un juego de tu lista de deseos está en descuento: " + notificacionListaDeDeseos);
     }
 
     public void setMessage(String message) {

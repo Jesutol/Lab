@@ -2,17 +2,17 @@ package patronObserver;
 
 public class Main {
     public static void main(String[] args) {
-        Canal canal = new Canal();
+        Steam steam = new Steam();
         
         Usuario usuario1 = new Usuario("Juan");
         Usuario usuario2 = new Usuario("María");
         
-        canal.subscribe(usuario1);
-        canal.subscribe(usuario2);
+        steam.subscribe(usuario1);
+        steam.subscribe(usuario2);
         
-        canal.setMessage("Hola a todos!");
-        canal.unsubscribe(usuario1);
-        canal.subirVideo("Nuevo video de programación");
+        steam.setMessage("Hola a todos!");
+        steam.unsubscribe(usuario1);
+        steam.notificarRebaja("Un juego de tu lista de deseos está en descuento: The Witcher 3");
         
     }
 }
