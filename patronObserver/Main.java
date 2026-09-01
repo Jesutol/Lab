@@ -11,5 +11,8 @@ public class Main {
         canal.subscribe(usuario2);
         
         canal.setMessage("Hola a todos!");
+        canal.unsubscribe(usuario1);
+        canal.subirVideo("Nuevo video de programación");
+        
     }
 }
