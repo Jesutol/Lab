@@ -1,3 +1,4 @@
+package forkJoinRecursiveAction;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.Arrays;
@@ -12,7 +13,7 @@ public class Main {
         try {
 
             BufferedReader br = new BufferedReader(
-                    new FileReader("juegos.txt")
+                    new FileReader("forkJoinRecursiveAction/juegos.txt")
             );
 
             String linea;
@@ -50,9 +51,7 @@ public class Main {
 
         ForkJoinPool pool = ForkJoinPool.commonPool();
 
-        juegos = pool.invoke(
-                new Prueba(0, juegos.length - 1, juegos, 1)
-        );
+        pool.invoke(new Prueba(0, juegos.length - 1, juegos, 1));
 
         System.out.println("\nJuegos ordenados por precio:");
         System.out.println(Arrays.toString(juegos));

@@ -1,3 +1,4 @@
+package forkJoinRecursiveAction;
 public class Juego {
 
     String nombre;
