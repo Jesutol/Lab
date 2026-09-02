@@ -1,0 +1,103 @@
+Cyberpunk 2077;59.99;50
+Portal 2;9.99;75
+Hades;24.99;40
+Red Dead Redemption 2;59.99;70
+Terraria;9.99;20
+Elden Ring;59.99;30
+Stardew Valley;14.99;50
+Hollow Knight;14.99;60
+The Witcher 3;39.99;80
+DOOM Eternal;39.99;65
+Grand Theft Auto V;29.99;50
+Baldur's Gate 3;59.99;20
+Hogwarts Legacy;59.99;60
+Left 4 Dead 2;9.99;80
+Half-Life 2;9.99;75
+Dead Cells;24.99;50
+Cuphead;19.99;35
+Celeste;19.99;60
+Subnautica;29.99;40
+Valheim;19.99;30
+Euro Truck Simulator 2;19.99;75
+The Forest;19.99;65
+Risk of Rain 2;24.99;50
+Deep Rock Galactic;29.99;67
+Phasmophobia;13.99;30
+Lethal Company;9.99;20
+Among Us;4.99;40
+Fallout 4;19.99;75
+Skyrim Special Edition;39.99;67
+Dark Souls III;59.99;50
+Sekiro;59.99;30
+Monster Hunter World;29.99;60
+Monster Hunter Rise;39.99;50
+Resident Evil 2;39.99;75
+Resident Evil 4;59.99;40
+Resident Evil Village;39.99;65
+Devil May Cry 5;29.99;50
+Street Fighter 6;59.99;35
+Tekken 8;49.99;40
+Mortal Kombat 11;49.99;80
+The Sims 4;39.99;90
+Cities Skylines;29.99;80
+Civilization VI;59.99;90
+Age of Empires II Definitive Edition;19.99;65
+Total War Warhammer III;59.99;50
+Factorio;35.00;20
+RimWorld;34.99;15
+Don't Starve Together;14.99;66
+Project Zomboid;19.99;33
+7 Days to Die;44.99;60
+ARK Survival Evolved;14.99;70
+Rust;39.99;50
+DayZ;49.99;40
+Raft;19.99;50
+Sons of the Forest;29.99;35
+Green Hell;24.99;60
+Dying Light;29.99;80
+Dying Light 2;49.99;60
+Metro Exodus;29.99;75
+Metro Last Light Redux;19.99;80
+Borderlands 3;59.99;85
+Tiny Tina's Wonderlands;59.99;70
+BioShock Infinite;29.99;75
+BioShock Remastered;19.99;75
+Dishonored;19.99;80
+Dishonored 2;29.99;75
+Prey;29.99;80
+Deathloop;59.99;75
+Hitman World of Assassination;69.99;60
+Far Cry 5;59.99;80
+Far Cry 6;59.99;70
+Assassin's Creed Odyssey;59.99;80
+Assassin's Creed Origins;59.99;80
+Watch Dogs 2;49.99;75
+Watch Dogs Legion;59.99;80
+Tom Clancy's Rainbow Six Siege;19.99;60
+For Honor;29.99;80
+Ghost Recon Wildlands;49.99;80
+Star Wars Jedi Fallen Order;39.99;75
+Star Wars Jedi Survivor;69.99;50
+Mass Effect Legendary Edition;59.99;75
+Dragon Age Inquisition;39.99;80
+No Man's Sky;59.99;50
+Outer Wilds;24.99;40
+The Long Dark;34.99;70
+Astroneer;29.99;50
+Satisfactory;39.99;30
+Slay the Spire;24.99;75
+Inscryption;19.99;50
+Vampire Survivors;4.99;30
+Balatro;14.99;20
+Terraria;9.99;50
+Enter the Gungeon;14.99;75
+Ori and the Blind Forest;19.99;80
+Ori and the Will of the Wisps;29.99;70
+Dead Space;59.99;50
+Control Ultimate Edition;39.99;75
+Alan Wake 2;49.99;30
+It Takes Two;39.99;50
+A Way Out;29.99;75
+Sea of Thieves;39.99;50
+Grounded;39.99;60
+Palworld;29.99;25
