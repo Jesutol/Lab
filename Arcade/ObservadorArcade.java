@@ -1,3 +1,3 @@
 public interface ObservadorArcade {
-    void notificar(String mensaje);
+    void notificar(String idMaquina, String mensaje, boolean requiereAtencion);
 }

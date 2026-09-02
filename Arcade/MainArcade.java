@@ -1,25 +1,40 @@
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.ForkJoinPool;
 
 public class MainArcade {
     static void main(String[] args) {
-        // Se crea el observador
-        SistemaCentral sistemaAdmin = new SistemaCentral();
+        // Se crea el observador y la lista que contiene a las maquinas
+        List<MaquinaArcade> listaMaquinas = new ArrayList<>();
+        SistemaCentral admin = new SistemaCentral(listaMaquinas);
+        PersonalTecnico tecnico = new PersonalTecnico(listaMaquinas);
 
         // Se crean varias maquinas arcade
-        List<MaquinaArcade> listaMaquinas = new ArrayList<>();
-        for (int i = 0; i <= 50; i++){
+        for (int i = 0; i <= 50; i++) {
             MaquinaArcade maquina = new MaquinaArcade("ARCADE-" + i);
-            maquina.agregarObservador(sistemaAdmin);
+            maquina.agregarObservador(admin);
+            maquina.agregarObservador(tecnico);
             listaMaquinas.add(maquina);
         }
 
-        // Se configura la tarea de recarga masiva
-        ForkJoinPool pool = new ForkJoinPool();
-        TareaRecargaMasiva tarea = new TareaRecargaMasiva(listaMaquinas, 0, listaMaquinas.size());
+        // Simulamos fallas aleatorias
+        System.out.println("--- Ocurren fallas tecnicas ---");
+        for (int i = 0; i < 12; i++) {
+            int maquinaAleatoria = (int) (Math.random() * listaMaquinas.size());
+            listaMaquinas.get(maquinaAleatoria).reportarFalla();
+        }
 
-        // Se ejecuta la tarea y lanza los hilos en paralelo
-        pool.invoke(tarea);
+        // Hacemos que la gente juegue hasta vaciar exactamente 5 maquinas
+        System.out.println("--- Los clientes usan las maquinas ---");
+
+        for (int i = 0; i < 10; i++) {
+            // Realizamos 5 jugadas por maquina, lo que vacia la maquina
+            System.out.println("--- Vaciando maquina:  " + i + " ---");
+            for (int jugada = 0; jugada < 5; jugada++) {
+                listaMaquinas.get(i).jugar();
+            }
+
+        }
+
     }
+
 }
